@@ -1,0 +1,173 @@
+/*Reset*/
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  padding: 0;
+  margin: 0;
+}
+body,button,input,textarea {
+  font: 12px/1.5 Tahoma,"宋体";
+}
+ol,ul {
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+fieldset,img {
+  border: 0;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+address,caption,cite,code,dfn,em,th,var {
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #666;
+}
+a: hover {
+  text-decoration: none;
+  color: #ff6600;
+}
+body {
+  color: #707070;
+  background-color: #b6ddf0;
+  /*background: url(/assets/images/bg.jpg) repeat-x #b6ddf0;*/
+}
+.areabl,.areabr,
+.header span,.applist dt,.media li,.right h2 {
+}
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.header{
+  clear: both;
+  overflow: hidden;
+  height: 120px;
+}
+.header h1 {
+  float: left;
+  width: 281px;
+  height: 100px;
+  line-height: 300px;
+  overflow: hidden;
+  background: url(/assets/images/logo.png) no-repeat;
+  margin: 15px 0 0 20px;
+}
+.header span {
+  float: right;
+  overflow: hidden;
+  width: 136px;
+  height: 28px;
+  line-height: 200px;
+  margin: 32px 10px 0 0;
+}
+.header span a {
+  display: block;
+  width: 136px;
+  height: 28px;
+}
+.header span a: hover {
+  color: #f60;
+}
+.area {
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+  margin: 0 10px;
+/*  border-left: 1px solid #97b8c8;
+  border-right: 1px solid #97b8c8;*/
+  /*background: url(/assets/images/rx.jpg) repeat-x top #fff;*/
+  background-color: #fff;
+}
+
+.applist {
+  float: left;
+  width: 920px;
+  padding: 10px 0 0 25px;
+}
+.applist ul {
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+  padding-left: 5px;
+}
+.applist li {
+  float: left;
+  width: 300px;
+  padding: 20px 0 0 2px;
+  height: 165px;
+}
+.applist li p {
+  clear: both;
+  text-indent: 2em;
+  width: 265px;
+  padding: 3px 0 0 10px;
+  line-height: 24px;
+  color: #000
+}
+.applist dl {
+  clear: both;
+}
+.applist dt {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 0 8px;
+}
+.applist dt a {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.applist dt a: hover {
+  color: #f60;
+}
+.applist .app-add {
+  background: url(/assets/images/icon/app-add.png) no-repeat;
+  /*background-position: -71px -131px;*/
+}
+.applist dd {
+  font-size: 12px;
+  color: #777;
+  padding: 16px 0 0 0;
+}
+.applist dd h3 {
+  font-size: 16px;
+}
+.applist dd h3 a {
+  color: #17628e;
+}
+.applist dd h3 a: hover {
+  color: #f60;
+}
+.applist dd h4 {
+  color: #a8c8e5;
+  font-size: 16px;
+  line-height: 23px;
+}
+.line {
+  clear: both;
+  overflow: hidden;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.line1 {
+  background: url(/assets/images/line1.png) repeat-x top;
+  height: 1px;
+  overflow: hidden;
+}
+.footer {
+  text-align: center;
+  line-height: 23px;
+  padding: 15px 0 30px;
+}
+.footer a,.footer a: hover {
+  color: #707070;
+}
