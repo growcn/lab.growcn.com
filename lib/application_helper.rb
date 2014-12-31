@@ -2,10 +2,10 @@ module ApplicationHelper
 
 
 
-  def list_app_li_tag(title,content,url,icon="")
-    
-    icon_image = if icon!=""
-      image_tag(lorem.image(icon))
+  def list_app_li_tag(title,content,url,icon=nil)
+    icon_image = if icon!={} and !icon.nil?
+      #image_tag(icon[:image],icon[:size])
+      icon
     else
       image_tag(lorem.image('70x70'))
     end
